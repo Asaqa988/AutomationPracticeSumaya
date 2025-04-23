@@ -73,8 +73,11 @@ public class hello {
 		int randomIndex1 = rand.nextInt(AllCheckBoxes.size());
 		int randomIndex2 = rand.nextInt(AllCheckBoxes.size());
 
+		// to select two random box 
 		AllCheckBoxes.get(randomIndex1).click();
 		AllCheckBoxes.get(randomIndex2).click();
+
+		// if you want to select all the checkboxes 
 
 //	for(int i = 0 ; i < AllCheckBoxes.size();i++) {
 //		AllCheckBoxes.get(i).click();
