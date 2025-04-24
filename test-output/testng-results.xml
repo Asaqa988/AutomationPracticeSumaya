@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T21:25:20 EET" name="Default suite" finished-at="2025-04-23T21:25:29 EET" duration-ms="9019">
+  <suite started-at="2025-04-24T21:10:47 EET" name="Default suite" finished-at="2025-04-24T21:10:53 EET" duration-ms="5992">
     <groups>
     </groups>
-    <test started-at="2025-04-23T21:25:20 EET" name="Default test" finished-at="2025-04-23T21:25:29 EET" duration-ms="9019">
+    <test started-at="2025-04-24T21:10:47 EET" name="Default test" finished-at="2025-04-24T21:10:53 EET" duration-ms="5992">
       <class name="hello">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:hello@18920cc]" started-at="2025-04-23T21:25:20 EET" name="mySetup" finished-at="2025-04-23T21:25:27 EET" duration-ms="6663" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:hello@294e5088]" started-at="2025-04-24T21:10:47 EET" name="mySetup" finished-at="2025-04-24T21:10:53 EET" duration-ms="5631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="SelectTag()[pri:2, instance:hello@18920cc]" started-at="2025-04-23T21:25:27 EET" name="SelectTag" finished-at="2025-04-23T21:25:27 EET" duration-ms="118" status="PASS">
+        <test-method signature="TableTest()[pri:9, instance:hello@294e5088]" started-at="2025-04-24T21:10:53 EET" name="TableTest" finished-at="2025-04-24T21:10:53 EET" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectTag -->
-        <test-method signature="CheckBoxTest()[pri:3, instance:hello@18920cc]" started-at="2025-04-23T21:25:27 EET" name="CheckBoxTest" finished-at="2025-04-23T21:25:29 EET" duration-ms="2210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckBoxTest -->
+        </test-method> <!-- TableTest -->
       </class> <!-- hello -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
